@@ -66,8 +66,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="Images\1837.png" />
+    <Content Include="Images\Human_hand_bones_simple_PL.svg" />
+    <Content Include="Javascripts\Bones - Copy.js" />
+    <Content Include="Javascripts\Bones.js" />
     <Content Include="Javascripts\raphael.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="default.aspx.cs">
@@ -81,7 +87,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
