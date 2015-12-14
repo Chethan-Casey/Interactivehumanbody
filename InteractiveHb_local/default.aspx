@@ -27,22 +27,9 @@
    
 <body>
     <form id="form1" runat="server">
-    <div id="Bones" class="test" runat="server">
+    <div id="Bones" class="test" >
         <!-- test -->
-        &nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
+      
     </div>
        <%-- <div id="Div1" class="t2" runat="server">
         <!-- test -->
@@ -50,8 +37,8 @@
         &nbsp;
     </div>--%>
         <%--<input type="text" runat="server" value="123" />--%>
-        <script src="Javascripts/Bones.js"></script>
-        <script src="Javascripts/raphael.js"></script>
+        <script src="Javascripts/raphael.js" type="text/javascript" ></script>
+        <script src="Javascripts/Bones.js" type="text/javascript"></script>
     </form>
 </body>
 </html>
