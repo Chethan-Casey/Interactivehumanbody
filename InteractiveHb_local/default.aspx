@@ -9,35 +9,36 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .test
-        {
-            background-image:url(Images/Human_hand_bones_simple_PL.svg);
+        .test {
+            background-image: url(Images/Human_hand_bones_simple_PL.svg);
             background-repeat: no-repeat;
-            height:900px;
-            width:900px;
-          
+            height: 900px;
+            width: 900px;
         }
 
-        .t2{
-             background-image:url("Images/1837.png");
+        .t2 {
+            background-image: url("Images/1837.png");
             background-repeat: no-repeat;
         }
     </style>
 </head>
-   
+
 <body>
     <form id="form1" runat="server">
-    <div id="Bones" class="test" >
-        <!-- test -->
-      
-    </div>
-       <%-- <div id="Div1" class="t2" runat="server">
-        <!-- test -->
+        <div id="Bones" class="test">
+            <!-- test -->
+
+        </div>
+        <%--<h1 id="mouseText" runat="server"></h1>--%>
+        <input type="text" runat="server" id="mouseText"  />
+        <div id="Div1" class="t2" runat="server">
+            <!-- test -->
             &nbsp;
         &nbsp;
-    </div>--%>
+        </div>
+        --%>
         <%--<input type="text" runat="server" value="123" />--%>
-        <script src="Javascripts/raphael.js" type="text/javascript" ></script>
+        <script src="Javascripts/raphael.js" type="text/javascript"></script>
         <script src="Javascripts/Bones.js" type="text/javascript"></script>
     </form>
 </body>
